@@ -18,7 +18,7 @@ else:
 
 ##imposto = quantidade > 10 == 0.05 * total or quantidade < 10 == 0.10 * total
 
-valorfinal = total + imposto
+valorfinal = total + imposto    
 
 
 print (f"O preço do {produto} é {preço}")
