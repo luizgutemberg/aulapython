@@ -9,7 +9,7 @@ df = pd.read_csv('https://www.ispdados.rj.gov.br/Arquivos/BaseDPEvolucaoMensalCi
 '''print (df.tail(5))'''
 
 df_roubo_celular_dp = df.groupby ('cisp') ['roubo_celular'].sum().reset_index()
-df_roubo_celular_dp = df_roubo_celular_dp.sort_values (by = 'roubo_celular', ascending = False).head (20)
+df_roubo_celular_dp = df_roubo_celular_dp.sort_values (by = 'roubo_celular', ascending = False).head (10)
 
 
 print (df_roubo_celular_dp)
